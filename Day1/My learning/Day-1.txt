@@ -1,0 +1,16 @@
+Today I learned about Printing,Inputs, Commenting,Debugging,String Manipulation and Variables.
+I had practiced few examples related to above topics.Finally today's learning ended with a small project called "Band Name Generator". 
+Notes:
+1. Spacing and Indentations are very Important in Python. 
+
+Explored Errors:
+1.Syntax Error
+2.Indentation Error 
+3.Name Error 
+
+String Manipulations:
+Concatination 
+
+Band Name Generator:
+In this program we simply take two inputs and concat it to print a single one.
+  
