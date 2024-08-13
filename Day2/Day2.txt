@@ -1,0 +1,54 @@
+Today I learned about data types, type casting, subscripting, mathematical operators, 
+number manipulation, operator precedence, f-strings, and assignment operators. I applied these
+concepts by creating a tip calculator project, which effectively reinforced the concepts 
+I learned on day two.
+
+Errors Explored:
+1) Type Error
+2) Value Error
+
+Functions I've learnt today:
+1)round():
+ syntax : round(num,digits)
+2)type() :You can check the data type of any value or variable in python using the type() function.
+
+
+DataTypes:
+1.Integer
+2.Float
+3.String
+4.Boolean
+
+Mathematical Operators:
++  : Addition
+-  : Subtraction
+*  : Multiplication
+/  : Division  (When you divide (/) you always get float)
+// : Floor Division (When you floor divide(//) you get an int)
+** : Exponentiation
+
+PEMDAS - priority
+Parentheses, Exponents, Multiplication/Division, Addition/Subtraction
+
+Assignment Operators:
++=
+-=
+*=
+/=
+
+Flooring a Number: Removing all the decimal places using int().
+
+f-Strings:
+In Python, we can use f-strings to insert a variable or an expression into a string.
+
+age = 12  
+print(f"I am {age} years old")
+
+Project:Tip Calculator
+This is a simple program where we collect the bill information and ask the person to 
+enter the tip percentage and total number of people, and then we calculate the total bill 
+including the tip and slipt the bill between the people and display the personal bill amount 
+to pay by the each person.
+
+
+
