@@ -1,0 +1,33 @@
+On Day 5 of my 100 Days of Python learning journey, I learned about For loops, 
+the range function, and code blocks. I also completed two coding exercise called 
+"Gauss Challenge","FizzBuzz" and worked on a small project called "Password Generator."
+
+For Loop
+--------
+Loops allow us to tell the computer to repeat actions without having to write repeated code. 
+If we wanted the computer to print out 1 through to 100, it would very painful to type a 
+print statement for every number, or even just typing out all the numbers 1 through to 100. 
+Loops allow us to create a rule and the computer can follow it to do a repeated action.
+
+Syntax
+for <variable name of each item> in <a List>:
+    <do something>
+    <do something else> 
+
+For Loops with Range
+--------------------
+The combination of the range() function with the Python For Loop allows us to run a loop for as many times as we wish. Instead of looping through each item in a List, we can loop through a range of numbers.
+
+Range Function
+range(1, 10)
+
+This code doesn't do anything by itself. For example, if you tried to print it, it would not give you individual numbers.
+
+But it can be used in conjunction with For Loops. e.g.
+
+for number in range(1, 10):
+    print(number)
+This will print out each of the numbers 1 - 9. 
+
+
+
