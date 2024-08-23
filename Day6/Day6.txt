@@ -1,0 +1,10 @@
+Today, as part of my 100 Days of Python learning journey, I focused on functions, 
+code blocks, and while loops. I practiced defining functions, explored different types, 
+and worked on some coding exercises in Reeborg's World. I wrapped up the day with an 
+"Escaping the Maze" project.
+
+while loop
+----------
+while something_is_true:
+	#Do something repeatedly
+
