@@ -1,0 +1,24 @@
+1) Create a New IAM User:
+
+Task your students to create a new IAM user. 
+They should assign this user to a new group called "Developers" and attach the 
+AmazonS3ReadOnlyAccess policy to the group.
+
+2) Modify an IAM Group Policy:
+
+Ask them to modify the policy attached to an existing IAM group (e.g., "Admins") by adding 
+the AmazonEC2FullAccess policy. This task will reinforce their understanding of attaching 
+and detaching policies.
+
+3) Implement Least Privilege Principle:
+
+Have your students create a new IAM user for a specific role (e.g., a billing manager) and 
+attach a custom policy that only allows this user to view billing information and nothing 
+else. They should carefully craft the policy using JSON to ensure it follows the 
+least privilege principle.
+
+4) Setup a Policy for S3 Bucket Access:
+Ask them to create an IAM group called "S3-Uploaders" and write a custom policy that allows 
+users in this group to upload objects to a specific S3 bucket, but denies them the ability 
+to delete or list objects in that bucket. They should then assign this policy to the group 
+and add a test user to it.
