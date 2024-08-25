@@ -1,0 +1,4 @@
+Day 7: Today, I worked on the Hangman Project. In this classic game, one player thinks of 
+a word, and the other player tries to guess it by suggesting letters. The word is initially 
+represented by a series of dashes, each dash corresponding to a letter in the word. As the 
+guessing player suggests letters, the correct ones are revealed in their respective positions.
