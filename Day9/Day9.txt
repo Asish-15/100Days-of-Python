@@ -1,0 +1,74 @@
+On Day 9 of my 100 Days of Python learning journey, I learned about dictionaries and nesting,
+how to loop through a dictionary, and how to nest lists within dictionaries. I completed a 
+coding exercise called "Grading" and wrapped up with a project titled "Secret Auction".
+
+A dictionary in Python functions similarly to a dictionary in real life. It's a data structure
+that allows us to associate a key to a value and pair the two pieces of data together.
+
+This is how you create a dictionary in Python:
+
+# An example dictionary
+colours = {
+    "apple": "red", 
+    "pear": "green", 
+    "banana": "yellow"
+}
+
+This is how you retrieve items from a dictionary:
+
+print(colours["pear"])
+#Will print "green"
+
+This is how to create an empty dictionary:
+my_empty_dictionary = {}
+
+This is how you can add new items to an existing dictionary:
+colours["peach"] = "pink"
+
+This is also how you can edit an existing value in a dictionary:
+colours["apple"] = "green"
+
+This is how to loop through a dictionary and print all the keys:
+for key in colours:
+    print(key)
+
+This is how to loop through a dictionary and print all the values:
+for key in colours:
+    print(colours[key])
+
+Nesting a List inside a Dictionary
+----------------------------------
+Instead of a String value assigned to a key, we can replace it with a List. You can nest a 
+List in a Dictionary like this:
+
+my_dictionary = {
+    key1: [List],
+    key2: Value,
+}
+example:
+travel_log = {
+    "France": ["Paris", "Lille", "Dijon"],
+    "Germany": ["Stuttgart", "Berlin"],
+}
+
+
+Nesting a Dictionary inside a Dictionary
+----------------------------------------
+You can also nest a dictionary in a dictionary:
+
+my_dictionary = {
+    key1: Value,
+    key2: {Key: Value, Key: Value},
+}
+
+example:
+travel_log = {
+  "France": {
+    "cities_visited": ["Paris", "Lille", "Dijon"], 
+    "total_visits": 12
+   },
+  "Germany": {
+    "cities_visited": ["Berlin", "Hamburg", "Stuttgart"], 
+    "total_visits": 5
+   },
+}
