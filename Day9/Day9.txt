@@ -72,3 +72,6 @@ travel_log = {
     "total_visits": 5
    },
 }
+
+Errors Explored: 
+Key Error 
