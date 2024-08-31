@@ -1,6 +1,6 @@
 On Day 9 of my 100 Days of Python learning journey, I learned about dictionaries and nesting,
 how to loop through a dictionary, and how to nest lists within dictionaries. I completed a 
-coding exercise called "Grading" and wrapped up with a project titled "Secret Auction".
+coding exercise called "Grading" and wrapped up with a project titled "Blind Auction".
 
 A dictionary in Python functions similarly to a dictionary in real life. It's a data structure
 that allows us to associate a key to a value and pair the two pieces of data together.
